@@ -23,25 +23,29 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
 }
 
 .banner-details {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 50px;
+    margin-bottom: 40px;
 }
 
 .text-happy {
-
+    font-size: 20px;
     text-align: center;
     color: white;
+    font-weight: bold;
 }
 
 .text-headline {
-
+    font-size: 50px;
     color: white;
     text-align: center;
 }
