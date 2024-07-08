@@ -20,4 +20,28 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-details {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.text-happy {
+
+    text-align: center;
+    color: white;
+}
+
+.text-headline {
+
+    color: white;
+    text-align: center;
 }
