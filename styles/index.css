@@ -9,8 +9,10 @@ body {
     padding: 0%;
 }
 
+/* banner section */
+
 .banner {
-    width: 1320px;
+    max-width: 1320px;
     height: 600px;
     margin: 0%;
     margin: auto;
@@ -19,7 +21,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,3 +51,49 @@ body {
     color: white;
     text-align: center;
 }
+
+/* 65% section conatainer style */
+.second-container {
+    width: 802.9px;
+    height: 760px;
+    /* border: 1px solid red; */
+    margin: 0%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.second-details {
+    margin-top: 30px;
+}
+
+#off-text {
+    color: #FF0000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+#holiday-text {
+    color: #FF0000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#categoris-text {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.second-details img {
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+/* vaction section style */
