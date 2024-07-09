@@ -97,3 +97,145 @@ body {
 }
 
 /* vaction section style */
+.vaction-cover {
+    width: 1320px;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin: 0%;
+    margin: auto;
+    background-image: url('/images/vaction.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.vaction-details {
+    width: 700px;
+    height: 270px;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+#wellcome-tag {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#part-text {
+    font-size: 50px;
+    color: white;
+}
+
+#lorem-vation {
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+
+#btn-vaction {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.vcation-img {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+.date-container {
+    /* border: 1px solid red; */
+    width: 1320px;
+    height: 450px;
+    margin: 0%;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #d8c3bb 0%, white 100%);
+    border-radius: 15px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.details-date {
+    /* border: 1px solid red; */
+}
+
+.text-date {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.red-date {
+    color: #FF0000;
+}
+
+.btn-date {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.comming-section {
+    /* border: 1px solid rebeccapurple; */
+    width: 1320px;
+    height: 450px;
+    margin: 0%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-details {
+    width: 440px;
+    padding: 50px;
+}
+
+.img-comming {
+    padding: 8px;
+    border: #FF0000 5px solid;
+    border-radius: 50%;
+}
+
+.heading-red {
+    color: #FF0000;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+
+.lorem-comming {
+    font-size: 14px;
+    color: grey;
+    margin-top: 15px;
+}
+
+.img-logo {
+    padding: 20px;
+    margin-top: 10px;
+}
