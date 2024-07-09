@@ -200,6 +200,8 @@ body {
     margin-top: 20px;
 }
 
+/* coming soon section ********************* */
+
 .comming-section {
     /* border: 1px solid rebeccapurple; */
     width: 1320px;
@@ -238,4 +240,63 @@ body {
 .img-logo {
     padding: 20px;
     margin-top: 10px;
+}
+
+/* section-gift style********************* */
+
+.section-gift {
+    max-width: 1320px;
+    height: 880px;
+    border: 1px solid red;
+    margin: 0%;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+.text-giftbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1060px;
+    height: 300px;
+}
+
+.text-giftbox h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text-giftbox h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.text-giftbox p {
+    font-size: 15px;
+    color: grey
+}
+
+
+.details-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.background-position {
+    position: absolute;
+    bottom: 0%;
+}
+
+.gift {
+    position: absolute;
+    top: 30%;
+    width: 150px;
+    height: 150px;
+}
+
+.char {
+    position: absolute;
+    top: 30%;
+    right: 10%;
 }
